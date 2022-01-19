@@ -1,0 +1,16 @@
+{
+  "name": "nft_arts_generator",
+  "version": "1.0.0",
+  "description": "NFT Arts Generator",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js",
+    "update_info": "node utils/update_info.js"
+  },
+  "author": "Heo, Jun Yong",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.0",
+    "sha1": "^1.1.1"
+  }
+}
